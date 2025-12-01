@@ -1,0 +1,188 @@
+/* Start hieronder je CSS regels */
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.container {
+  max-width: 30rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (min-width: 60rem) {
+  .container {
+    max-width: 60rem;
+  }
+}
+
+/* Introduction */
+
+.introduction {
+  text-align: center;
+  margin: 4.5rem 0 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon {
+  width: 4rem;
+  height: 4rem;
+
+  /* background-color: red; */
+
+  background-image: url("../images/icon-gameboy.svg");
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 40rem) {
+  .icon {
+    background-image: url("../images/icon-xbox.svg");
+  }
+}
+
+@media (min-width: 60rem) {
+  .icon {
+    background-image: url("../images/icon-playstation.svg");
+  }
+}
+
+/* @media (min-width: 40rem) {
+  .icon {
+    background-image: url("../images/icon-xbox.svg");
+  }
+}
+
+@media (min-width: 60rem) {
+  .icon {
+    background-image: url("../images/icon-playstation.svg");
+  }
+} */
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 100%;
+  letter-spacing: -0.06rem;
+}
+
+@media (min-width: 40rem) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  h1 {
+    font-size: 3.6rem;
+  }
+}
+
+.introduction p {
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  opacity: 0.5;
+}
+
+/* Footer */
+
+.footer {
+  margin: 3rem auto 6rem;
+  max-width: 30rem;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 150%;
+}
+
+.footer a {
+  color: hsl(228, 0%, 59%);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: hsl(228, 95%, 59%);
+}
+
+.footer a:active {
+  color: hsl(228, 95%, 10%);
+}
+
+/* Games */
+
+.game {
+  margin: 0 0 1.5rem 0;
+  background-color: white;
+  border: 1px solid hsl(0, 0%, 60%);
+  border-radius: 2rem;
+  padding: 3rem;
+  text-align: center;
+}
+
+@media (min-width: 60rem) {
+  .game {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+.game__img {
+  width: 100%;
+  border-radius: 1.3rem;
+}
+
+@media (min-width: 60rem) {
+  .game__img {
+    width: 50%;
+    object-fit: cover;
+  }
+}
+
+.game__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 110%;
+  margin: 2rem 0 2rem 0;
+}
+
+.game__description {
+  margin: 2rem 0;
+  padding: 1rem 0;
+  border-top: 1px dashed hsl(0, 0%, 60%);
+  border-bottom: 1px dashed hsl(0, 0%, 60%);
+  color: hsl(0, 0%, 40%);
+}
+
+.game a {
+  display: inline-block;
+  border: 1px solid hsl(0, 0%, 60%);
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: 2rem;
+}
+
+/* extra */
+
+.game a:hover {
+  background: hsl(228, 95%, 59%);
+  border-color: hsl(228, 95%, 59%);
+  color: white;
+  transition: 0.2s;
+}
+
+.game a:active {
+  transform: translateY(2px);
+  transition: none;
+}

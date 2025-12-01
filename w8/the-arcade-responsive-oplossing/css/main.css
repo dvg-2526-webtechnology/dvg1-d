@@ -53,18 +53,6 @@ body {
   }
 }
 
-/* @media (min-width: 40rem) {
-  .icon {
-    background-image: url("../images/icon-xbox.svg");
-  }
-}
-
-@media (min-width: 60rem) {
-  .icon {
-    background-image: url("../images/icon-playstation.svg");
-  }
-} */
-
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;

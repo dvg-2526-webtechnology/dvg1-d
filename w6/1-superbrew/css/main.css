@@ -1,0 +1,150 @@
+/* Algemeen */
+html {
+	font-size: 100%; /* Standaardwaarde voor 1rem */
+}
+
+body {
+	font-family: "Arial", sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+	border-radius: 0.625rem;
+	overflow: hidden;
+}
+
+/* Navigatie */
+.navbar {
+	background-color: #6f4e37;
+	padding: 0.9375rem; /* 15px */
+	text-align: center;
+}
+
+.navbar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin-right: 1.25rem; /* 20px */
+}
+
+.navbar ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.125rem; /* 18px */
+}
+
+.navbar ul li a:hover {
+	text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+	background-color: #c49a6c;
+	color: white;
+	padding: 2.5rem; /* 40px */
+	text-align: center;
+}
+
+.banner h1 {
+	margin: 0;
+	font-size: 2.25rem; /* 36px */
+}
+
+/* Content */
+.content {
+	padding: 1.25rem; /* 20px */
+}
+
+.product-description {
+	margin-bottom: 2.5rem; /* 40px */
+}
+
+.product-description h2 {
+	color: #6f4e37;
+	font-size: 1.75rem; /* 28px */
+	border-bottom: 0.125rem solid #ddd; /* 2px */
+	padding-bottom: 0.625rem; /* 10px */
+}
+
+.product-details {
+	margin-top: 1.25rem; /* 20px */
+	padding: 0 1.25rem;
+}
+
+.image-container img {
+	width: 100%;
+	max-width: 18.75rem; /* 300px */
+	border-radius: 0.625rem; /* 10px */
+	box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+	max-width: 37.5rem; /* 600px */
+	margin-top: 1rem; /* 16px */
+}
+
+.product-info p {
+	font-size: 1.125rem; /* 18px */
+	color: #555;
+}
+
+.product-info ul {
+	padding-left: 1.25rem; /* 20px */
+	margin-top: 0.625rem; /* 10px */
+}
+
+.product-info ul li {
+	font-size: 1rem; /* 16px */
+	margin-bottom: 0.3125rem; /* 5px */
+}
+
+/* Reviews */
+.reviews {
+	margin-top: 2.5rem; /* 40px */
+}
+
+.reviews h3 {
+	color: #6f4e37;
+	font-size: 1.5rem; /* 24px */
+	border-bottom: 0.125rem solid #ddd; /* 2px */
+	padding-bottom: 0.625rem; /* 10px */
+}
+
+.review-item {
+	margin-top: 1.25rem; /* 20px */
+	background-color: #f9f9f9;
+	padding: 1.25rem; /* 20px */
+	border-radius: 0.625rem; /* 10px */
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.05);
+}
+
+.review-author {
+	font-weight: bold;
+	color: #c49a6c;
+	display: block;
+	margin-bottom: 0.3125rem; /* 5px */
+}
+
+/* Footer */
+.footer {
+	background-color: #6f4e37;
+	color: white;
+	padding: 1.25rem; /* 20px */
+	text-align: center;
+}
+
+.footer p {
+	margin: 0.3125rem 0; /* 5px 0 */
+}

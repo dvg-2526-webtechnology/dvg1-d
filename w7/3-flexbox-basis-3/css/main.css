@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background-image: url('../images/macbook.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 120vh;
+}
+
+header {
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  background-color: hsl(0, 0%, 100%);
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 0rem 0rem 2rem rgba(128, 128, 128, 0.3);
+  border-radius: 20rem;
+  
+}
+
+.nav-items {
+  display: flex;
+}
+
+.nav-item {
+  list-style: none;
+  padding: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: hsl(0, 0%, 0%);
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  background-color: hsl(240, 61%, 48%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 20rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}

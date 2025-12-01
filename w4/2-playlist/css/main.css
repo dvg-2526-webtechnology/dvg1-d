@@ -1,0 +1,120 @@
+:root {
+  --spotify-color: hsl(141,76%,48%);
+  --spotify-light: hsl(0,0%,80%);
+  --spotify-background: hsl(0,0%,0%);
+  --spotify-tint: hsl(0,0%,40%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: white;
+  background-color: var(--spotify-background);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+header,
+main,
+footer {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+main {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.logo {
+  display: block;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.introduction {
+  color: var(--spotify-light);
+  font-size: 1.2rem;
+}
+
+.outro {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--spotify-light);
+  font-size: 1.2rem;
+}
+
+.small {
+  font-size: .75rem;
+  color: var(--spotify-light);
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list li {
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  color: black;
+  background-color: var(--spotify-light);
+  border-radius: 1rem;
+}
+
+li:nth-child(1) .card {
+  color: hsl(0,30%,90%);
+  background-color: hsl(0,30%,50%);
+}
+
+li:nth-child(2) .card {
+  color: hsl(40,30%,90%);
+  background-color: hsl(40,30%,50%);
+}
+
+li:nth-child(3) .card {
+  color: hsl(200,20%,90%);
+  background-color: hsl(250,10%,50%);
+}
+
+.card__description {
+  text-align: center;
+  margin-top: .4rem;
+  padding-top: 1rem;
+  font-weight: 600;
+  border-top: 2px dashed hsla(0,0%,100%,.3);
+}
+
+.link-dark {
+  color: var(--spotify-color);
+}
+
+.link-dark:hover {
+  text-decoration: none;
+  opacity: .8;
+}

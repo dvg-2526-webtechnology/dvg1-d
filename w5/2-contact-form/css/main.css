@@ -1,0 +1,116 @@
+/* Styling */
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(0,0%,95%);
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav a {
+  font-weight: bold;
+  color: hsl(0,0%,20%);
+  text-decoration: underline;
+  text-decoration-thickness: .3ex;
+  text-underline-offset: .5ex;
+
+  &:hover,
+  &:focus {
+    color: hsl(0,0%,30%);
+    text-decoration: none;
+  }
+}
+
+main {
+  max-width: 50rem;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline: 1rem;
+  padding-block: 5rem;
+}
+
+.c-form {
+  margin-top: 1rem;
+}
+
+.c-form-group + .c-form-group {
+  margin-top: 1rem;
+}
+
+.c-form-submit {
+  margin-top: 1rem;
+
+  & a  {
+    margin-left: 1rem;
+  }
+}
+
+button {
+  color: hsl(0 0% 100%);
+  background-color: hsl(110 30% 30%);
+  border: none;
+  border-radius: .3rem;
+  padding: .5rem 1rem;
+  font-weight: 700;
+}
+
+a {
+  color: hsl(220 80% 40%);
+  text-underline-offset: .3ex;
+}
+
+label {
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.c-label {
+  olor: hsl(0 0% 70%);
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  width: 100%;
+  display: block;
+  padding: .5rem;
+  border: 1px solid hsl(0 0% 60%);
+  border-radius: .3rem;
+}
+
+input[type="radio"],
+input[type="radio"] + label,
+input[type="checkbox"],
+input[type="checkbox"] + label {
+  display: inline;
+  accent-color: hsl(110 30% 30%);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: .3rem;
+}
+
+textarea {
+  box-sizing: content-box;
+  height: 5lh;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+  margin-top: 2rem !important;
+}
+
+legend {
+  font-weight: 700;
+  margin-bottom: .5rem;
+}

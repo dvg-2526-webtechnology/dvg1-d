@@ -1,0 +1,162 @@
+/*
+  Artevelde hogeschool CSS Reset v0.2
+  Adapted version from Josh's Custom CSS Reset https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html {
+  height: 100%;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  min-height: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  background-color: rgba(20, 72, 158);
+
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(255, 255, 255);
+  font-family: "Impact", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  background-color: rgba(20, 72, 158);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+
+  padding: 10px;
+
+  text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+}
+
+img {
+  margin: 0 auto;
+}
+
+p {
+  background-color: rgba(255, 255, 255);
+  border-radius: 10px;
+  border: 1px solid rgb(20, 72, 158);
+
+  color: rgb(20, 72, 158);
+  padding: 10px;
+
+  text-align: left;
+}
+
+ul {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+}
+
+li {
+  color: rgba(20, 72, 158);
+
+  font-weight: bold;
+  font-size: 16px;
+
+  list-style-image: url('../images/voetbal.png');
+  list-style-position: inside;
+
+  margin-bottom: 5px;
+}
+
+h2,
+p,
+img {
+  margin-bottom: 20px;
+}
+
+.content {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, .5);
+  background-color: rgba(150, 217, 248);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px 4px 4px 20px;
+
+  max-width: 100%;
+  margin: 20px;
+  padding: 30px 20px;
+}
+
+@media (min-width: 50rem) {
+  .content {
+    max-width: 40rem;
+    margin: 20px auto;
+  }
+}

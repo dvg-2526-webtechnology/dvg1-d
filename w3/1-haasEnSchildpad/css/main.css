@@ -1,0 +1,36 @@
+body {
+  /* stel het algemeen lettertype in, de font-grootte en de regelafstand */
+  /* ... */
+  font-family: "Hind Madurai", sans-serif;
+  font-weight: 400;
+  color: #1c2947;
+}
+
+/* schrijf css voor de heading, voor de span met class turtle, en voor de span met class hare */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.2rem;
+  color: #1c2947;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: #ff7678;
+}
+.turtle {
+  color: #2a9abe;
+  font-weight: 700;
+}
+
+.hare {
+  color: #ff7678;
+  font-weight: 700;
+}
+
+/* Onderstaande niet aanpassen */
+.myth {
+  max-width: 45rem;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  margin: 0 auto;
+}

@@ -1,0 +1,112 @@
+:root {
+  --youtube-color: hsl(360,100%,50%);
+  --youtube-light: hsl(0,0%,20%);
+  --youtube-background: hsl(0,0%,90%);
+  --youtube-tint: hsl(0,0%,20%);
+  --youtube: hsl();
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: black;
+  background-color: var(--youtube-background);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+header,
+main,
+footer {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+header,
+footer {
+  text-align: center;
+}
+
+footer {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+main {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.logo {
+  display: block;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+}
+
+.introduction {
+  color: var(--youtube-light);
+  font-size: 1.2rem;
+}
+
+.outro {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--youtube-light);
+  font-size: 1.2rem;
+}
+
+iframe {
+  width: 100%;
+}
+
+.small {
+  font-size: .75rem;
+  color: var(--youtube-light);
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list li {
+  margin-top: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  color: black;
+  background-color: white;
+  border: 1px solid hsl(0,0%,80%);
+  box-shadow: 0 0 10px hsla(0,0%,0%,.1);
+  border-radius: 1rem;
+}
+
+.card__description {
+  text-align: center;
+  margin-top: .4rem;
+  padding-top: 1rem;
+  font-weight: 600;
+  border-top: 1px solid hsla(0,0%,90%,1);
+}
+
+.link {
+  color: var(--youtube-color);
+}
+
+.link:hover {
+  text-decoration: none;
+  opacity: .8;
+}

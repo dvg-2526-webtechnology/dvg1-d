@@ -1,0 +1,79 @@
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 2rem auto;
+  padding: 0 16px;
+}
+
+h1 {
+  background: hsl(218, 32%, 36%);
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 3rem;
+  z-index: 10;
+}
+
+.go-up {
+  background: hsl(218, 32%, 36%);
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  padding: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 20;
+}
+
+.cards {
+  margin-top: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-end;
+  padding-bottom: 10rem;
+}
+
+h2 {
+  width: 100%;
+  background: hsla(0, 0%, 100%, 1);
+  position: sticky;
+  top: 3rem;
+  z-index: 8;
+  padding: 2rem 0 0.5rem 0;
+  border-bottom: 1px solid black;
+}
+
+.card {
+  border: 1px solid black;
+  width: 20rem;
+  flex-grow: 1;
+  background: white;
+  position: relative;
+}
+
+.card__inner {
+  padding: 1rem;
+}
+
+.price {
+  background: red;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 3rem;
+}
+
+.container {
+  width: 6.25rem; /* 100px */
+  height: 3.75rem; /* 30px */
+  position: relative;
+}
+
+.orange-box {
+  width: 3.75rem;
+  height: 3.75rem;
+  background-color: orange;
+  border-radius: 20rem 20rem 0 20rem;
+}
+
+.white-box {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: white;
+  border-radius: 20rem 20rem 0 20rem;
+
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+}
+
+.green-box1,
+.green-box2 {
+  width: 1.25rem;
+  height: 1.25rem;
+  background-color: rgb(120, 186, 21);
+}
+
+.green-box1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.green-box2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

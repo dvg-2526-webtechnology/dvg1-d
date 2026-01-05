@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-family: sans-serif;
+}
+
+a {
+}
+
+a:hover {
+  color: green;
+}
+
+.simple {
+  transition: color 1s ease-in-out;
+}
+
+.background {
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
+}
+
+.background:hover {
+  background-color: yellow;
+}
+
+.padding {
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out, padding 0.5s ease-in;
+}
+
+.padding:hover {
+  background-color: yellow;
+  padding: 2rem;
+}
+
+.spacing {
+  transition: letter-spacing 0.5s ease-in-out 0.5s;
+}
+
+.spacing:hover {
+  letter-spacing: 0.5rem;
+}
+
+/* 
+.background {
+  transition: color 0.5s ease-in-out, background 0.5s ease-in-out;
+}
+
+.background:hover {
+  background-color: yellow;
+}
+
+.padding {
+  transition: color 0.5s ease-in-out, background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.padding:hover {
+  padding: 1rem;
+  background-color: yellow;
+}
+
+.scale {
+  transition: color 0.5s ease-in-out, background 0.5s ease-in-out, letter-spacing 0.5s ease-in-out;
+}
+
+.scale:hover {
+  letter-spacing: 1rem;
+  background-color: yellow;
+} */

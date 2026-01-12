@@ -1,0 +1,18 @@
+body {
+  font-family: sans-serif;
+  background-color: silver;
+  max-width: 60rem;
+  margin-inline: auto;
+}
+
+.header,
+.footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+.box {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
